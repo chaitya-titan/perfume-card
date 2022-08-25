@@ -1,14 +1,16 @@
 body{
     /* display: flex; */
+    position: relative;
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
 }
 
 .card {
+    
     width: 34rem;
     height: 27rem;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
     margin: 0 auto;
     /* float: none;
     margin-bottom: 10px; */
@@ -37,4 +39,22 @@ body{
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 12px;
+}
+
+.price{
+  font-family: "Montserrat";
+  font-weight: 400;
+  
+}
+
+.price-green{
+  font-family: "fraunces";
+  position: relative;
+  display: inline-block;
+}
+
+.price-slashed{
+  font-family: "Montserrat";
+  font-weight: 400;
+  display: inline-block;
 }
