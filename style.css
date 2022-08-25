@@ -1,0 +1,40 @@
+body{
+    /* display: flex; */
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.card {
+    width: 34rem;
+    height: 27rem;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    /* float: none;
+    margin-bottom: 10px; */
+    flex-direction: row;
+}
+.card img {
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-body{
+  width: 50%;
+}
+
+.card-title{
+  font-family: "fraunces";
+}
+
+.card-text{
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.perfume{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+}
